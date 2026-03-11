@@ -33,4 +33,8 @@ jobs:
 
     - name: Push Docker Image
       run: |
-        docker push jfelipeja/graphql:0.0.2 .
+        docker push jfelipeja/graphql:0.0.2
+
+
+  # - name: Build the docker Image
+  #   run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
